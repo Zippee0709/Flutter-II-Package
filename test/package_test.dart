@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:package/package.dart';
+import 'package:flutter_ii_package_epitech_zhiwen/package.dart';
 
 void main() {
   test('Is valid sign in information', () {
