@@ -18,9 +18,21 @@ Epitech Scool project, the goal is to create a package that can be used in anoth
 ## Features
 
 Validators
-- IsValidName(String str) : If name contains only digits, return false, otherwise true
-- IsValidEmail(String str) : If email doesn't contains '@', return false, otherwise true
-- IsValidPassword(String str) : If name length <= 4, return false, otherwise true
+- isName(String str) : If name contains only letters, return true, otherwise false
+
+- isEmail(String str) : If email contains '@', return true, otherwise false
+
+- isPasswordStrong(String str) : If password length < 8 and contains uppercase letter and one digit, return true, otherwise true
+
+- isAlphanumeric(String str) : If string contains letters or/and digits, return true, otherwise false
+
+- isAlpha(String str) : If string contains only letters, return true, otherwise false
+
+- isNum(String str) : If string contains only digits, return true, otherwise false
+
+- isUppercase(String str) : If string is uppercase, return true, otherwise false
+
+- isLowercase(String str) : If string is lowercase, return true, otherwise false
 
 ## Getting started
 
