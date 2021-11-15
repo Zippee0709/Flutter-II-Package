@@ -11,29 +11,27 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Flutter II Package
+
+Epitech Scool project, the goal is to create a package that can be used in another project
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Validators
+- IsValidName(String str) : If name contains only digits, return false, otherwise true
+- IsValidEmail(String str) : If email doesn't contains '@', return false, otherwise true
+- IsValidPassword(String str) : If name length <= 4, return false, otherwise true
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+In terminal type :
+
+flutter pub get flutteriipackage
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+import 'package:flutter_pkg/flutter_pkg.dart';
 
-```dart
-const like = 'sample';
-```
+final validator = Validators();
+validator.isValidEmail('test@test.com');
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
