@@ -1,3 +1,7 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Basic Validators
+
+## 0.0.2
+
+* Basic Validators with additional usefull fonction
