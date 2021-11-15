@@ -26,12 +26,15 @@ Validators
 
 In terminal type :
 
+```
 flutter pub get flutteriipackage
+```
 
 ## Usage
 
+```
 import 'package:flutter_pkg/flutter_pkg.dart';
 
 final validator = Validators();
 validator.isValidEmail('test@test.com');
-
+```
