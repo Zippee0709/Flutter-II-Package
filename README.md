@@ -38,3 +38,7 @@ import 'package:flutter_pkg/flutter_pkg.dart';
 final validator = Validators();
 validator.isValidEmail('test@test.com');
 ```
+## Test
+```
+flutter test test/package_test.dart
+```
